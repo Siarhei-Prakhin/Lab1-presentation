@@ -40,6 +40,7 @@ There are 2 folders in the repo:
 1.2 codeplacing. sh
 
 2. examples:
+
 2.1 pom.xml
 
 2.2 Vagrantfile
