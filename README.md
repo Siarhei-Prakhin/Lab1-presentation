@@ -28,7 +28,7 @@ Let's make 3 sections of workflow:
 2. Execute startscript. sh - as a result we'll receive VM with all SW we need. You can see different files (Vagrantfile, Playbook1.yml etc.) in the execution directory.
 3. We have to run Jenkins job Lab1 (previously correct the path to SSH public-key to the startscript. sh execution directory) - as a result we receive builded jar-file, test results and so on in VM. The job is saved in examples/Lab1.xml.
 
-I will be happy to provide detailed demo of workflow in MS Teams.
+**I will be happy to provide detailed demo of workflow in MS Teams.**
 
 ## Folders content.
 
