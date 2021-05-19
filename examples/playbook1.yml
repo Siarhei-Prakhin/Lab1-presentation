@@ -1,0 +1,31 @@
+---
+- name: Install SW
+  hosts: Virtual
+  become: yes
+  tasks:
+  - name: Test
+    debug: var=ansible_os_family
+
+
+  - block: #-----For RedHat-------
+    - name: Soft_install_RedHat
+      yum: name=httpd state=latest
+    - name: Start Apache
+      service: name=httpd state=started enabled=yes
+
+    when: ansible_os_family == "RedHat"
+
+
+
+  - block: #-----For Debian-------
+    - name: Soft_install_Debian
+      apt: name=apache2 state=latest
+
+    when: ansible_os_family == "Debian"
+
+  - name: Access dir correction
+    file: dest=/var/www/html/ mode=777
+  - name: Access file correction
+    file: dest=/var/www/html/index.html mode=777
+    ignore_errors: yes
+
