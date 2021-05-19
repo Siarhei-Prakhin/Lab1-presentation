@@ -33,21 +33,22 @@ Let's make 3 sections of workflow:
 ## Folders content.
 
 There are 2 folders in the repo:
-1. distr (2 files):
 
-1.1  startscript. sh
+**1. distr (2 files):**
 
-1.2 codeplacing. sh
+	1.1  startscript. sh
 
-2. examples:
+	1.2 codeplacing. sh
 
-2.1 pom.xml
+**2. examples:**
 
-2.2 Vagrantfile
+	2.1 pom.xml
 
-2.3 playbook1.yml
+	2.2 Vagrantfile
 
-2.4 Lab1.xml
+	2.3 playbook1.yml
 
-2.5 src/main/java/*.java
+	2.4 Lab1.xml
+
+	2.5 src/main/java/*.java
 
