@@ -15,7 +15,9 @@
 **3** - replacing the source files according to Maven's directory ideology was added.
 
 **4** - Apache Maven was selected as a build tool.
+
 **4a** - for my opinion this job must be done by Jenkins.
+
 **6a** - The test reports are accessible in Jenkins dashboard and in VM web-startpage (because first I didn't find suitable and workable Jenkins plugin and made the report on web-page, after finding plugin it was very pity to delete the page:))
 
 
@@ -33,11 +35,17 @@ I will be happy to provide detailed demo of workflow in MS Teams.
 There are 2 folders in the repo:
 1. distr (2 files):
 1.1  startscript. sh
+
 1.2 codeplacing. sh
+
 2. examples:
 2.1 pom.xml
+
 2.2 Vagrantfile
+
 2.3 playbook1.yml
+
 2.4 Lab1.xml
+
 2.5 src/main/java/*.java
 
