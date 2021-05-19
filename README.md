@@ -34,14 +34,13 @@ Let's make 3 sections of workflow:
 
 There are 2 folders in the repo:
 1. distr (2 files):
-2. 
-3.1  startscript. sh
+
+1.1  startscript. sh
 
 1.2 codeplacing. sh
 
 2. examples:
-3. 
-4.1 pom.xml
+2.1 pom.xml
 
 2.2 Vagrantfile
 
