@@ -11,7 +11,9 @@
 
 ## Remarks to the points of original task.
 **1a** - Installing Jenkins on VM with very short lifecycle is not suitable for making the job and my practice in Jenkins. So it was installed on local machine. As practice of using Ansible we install apache.
+
 **3** - replacing the source files according to Maven's directory ideology was added.
+
 **4** - Apache Maven was selected as a build tool.
 **4a** - for my opinion this job must be done by Jenkins.
 **6a** - The test reports are accessible in Jenkins dashboard and in VM web-startpage (because first I didn't find suitable and workable Jenkins plugin and made the report on web-page, after finding plugin it was very pity to delete the page:))
